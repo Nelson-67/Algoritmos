@@ -7,6 +7,22 @@
  */
 programa {
   funcao inicio() {
-    
+    real anos
+
+        escreva("Digite os anos trabalhados: ")
+        leia(anos)
+
+        se (anos < 1)
+        {
+            escreva("\nBônus de R$ 200")
+        }
+        senao se (anos <= 3)
+        {
+            escreva("\nBônus de R$ 500")
+        }
+        senao
+        {
+            escreva("\nBônus de R$ 1000")
   }
+}
 }
